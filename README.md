@@ -1,2 +1,3 @@
-# axit-project
-HTML &amp; CSS
+# Вёрстка лендинга AXIT по макету в Figma
+
+https://yegorvolovich.github.io/axit-project/
