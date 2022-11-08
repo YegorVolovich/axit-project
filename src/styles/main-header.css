@@ -1,0 +1,29 @@
+.main-header {
+  background-color: black;
+}
+.main-header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+.main-header__container {
+  max-width: 1200px;
+}
+.main-navigation__link {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 19px;
+  transition: 0.2s linear;
+}
+.main-navigation__link:hover {
+  color: #ec7979;
+}
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  padding-right: 50px;
+}

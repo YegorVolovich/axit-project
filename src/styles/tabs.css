@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.tabs {
+  margin-top: 50px;
+}
+.tabs__link {
+  margin: 0px;
+  padding: 5px 70px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333333;
+}
+.tabs__link:hover {
+  color: #ec7979;
+}
+.tabs__link:first-child {
+  border: 1px solid #e5e5e5;
+  border-bottom: none;
+}
+.container-border {
+  border: 1px solid #e5e5e5;
+  display: inline-block;
+}
+.text-block {
+  display: inline-block;
+  width: 570px;
+  padding: 100px 40px 0px 80px;
+  vertical-align: top;
+}
+.text-block__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.text-block__subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0px;
+}
+.text-block__button {
+  height: 58px;
+  width: 270px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #ec7979;
+}
+.image-block {
+  display: inline-block;
+  width: 470px;
+  vertical-align: top;
+}
