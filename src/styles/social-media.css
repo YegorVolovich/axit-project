@@ -1,0 +1,42 @@
+.social-media {
+  background-color: #f8efef;
+  height: 140px;
+}
+.social-media__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media-left {
+  max-width: 470px;
+}
+.social-media-left__title {
+  color: #333333;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  padding-top: 15px;
+}
+.social-media-left__subtitle {
+  color: #86878b;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  padding-top: 30px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 50px;
+}
+.social-links__icon {
+  cursor: pointer;
+  justify-content: space-around;
+}
