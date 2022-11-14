@@ -6,22 +6,25 @@
   justify-content: space-between;
 }
 .reviews__item {
-  width: 30%;
+  width: 32%;
 }
 .reviews__comment {
-  padding: 30px 10px;
-  background: #e2e2e2;
+  max-width: 370px;
+  min-height: 180px;
+  background-color: #e2e2e2;
+  position: relative;
   border-radius: 10px;
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
   display: flex;
   align-items: center;
-  text-align: center;
+}
+.reviews__comment-text {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
   color: #86878b;
-  position: relative;
-  margin-bottom: 40px;
+  text-align: center;
+  padding: 0 20px;
 }
 .reviews__comment:after {
   content: "";
@@ -34,6 +37,7 @@
 }
 .reviews__customer {
   display: flex;
+  padding: 66px 0;
 }
 .reviews__photo {
   margin-right: 30px;
