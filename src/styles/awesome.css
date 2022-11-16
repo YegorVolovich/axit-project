@@ -1,31 +1,6 @@
 .awesome {
   padding-top: 40px;
 }
-.section-header__title {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
-}
-.section-header__line {
-  margin: 0 auto 50px auto;
-  height: 1px;
-  width: 170px;
-  background-color: var(--main-orange);
-}
-.section-header__subtitle {
-  text-align: center;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: var(--main-grey);
-  margin-bottom: 80px;
-}
 .awesome__card {
   display: inline-block;
   width: 33.1%;
