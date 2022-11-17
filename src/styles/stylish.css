@@ -4,17 +4,17 @@
   min-height: 442px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../assets/images/background-stylish.jpeg);
-  background-size: contain;
+    background-size: contain;
 }
 .section-header--white {
   color: white;
-  padding-top: 20px;
+  padding-top: 20px
 }
-.section-header__line--white {
+ .section-header__line--white {
   background-color: white;
 }
 .section-header__subtitle--white {
-  color: white;
+    color: white;
 }
 .stylish__button {
   height: 58px;
@@ -28,9 +28,9 @@
   background: transparent;
   margin: 0 auto;
   display: block;
-  transition: 0.3s linear;
+  transition: 0.4s linear;
 }
 .stylish__button:hover {
-  color: black;
-  background-color: white;
+    color: black;
+    background-color: white;
 }
