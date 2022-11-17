@@ -2,6 +2,7 @@
   min-height: 951px;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url(../assets/images/banner-background.jpeg);
+    background-size: contain;
 }
 .banner-container {
   display: flex;
