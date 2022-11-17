@@ -2,10 +2,11 @@
 @import "normalize.css";
 @import "reset.css";
 @import "var.css";
+@import "section-header.css";
 @import "container.css";
 @import "main-header.css";
+@import "banner.css";
 @import "social-media.css";
-@import "section-header.css";
 @import "tabs.css";
 @import "awesome.css";
 @import "pricing.css";
