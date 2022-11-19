@@ -17,7 +17,7 @@
   line-height: 33px;
   align-items: center;
   min-height: 60px;
- display: flex;
+  display: flex;
 }
 .social-media-left__subtitle {
   color: #86878b;
@@ -38,5 +38,8 @@
 }
 .social-links__icon {
   cursor: pointer;
-  justify-content: space-around;
+  transition: 0.3s;
+}
+.social-links__icon:hover {
+  transform: scale(1.1);
 }
