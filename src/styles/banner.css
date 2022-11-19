@@ -1,8 +1,11 @@
 .banner {
   min-height: 951px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(30, 29, 29, 0.8), rgba(0, 0, 0, 0.5)),
     url(../assets/images/banner-background.jpeg);
-    background-size: contain;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
 }
 .banner-container {
   display: flex;
@@ -26,17 +29,16 @@
   background-color: white;
   margin: 0;
 }
-.banner__subtitle {
+.banner__content-subtitle {
   max-width: 270px;
-  padding: 42px 0;
+  padding: 21px 0;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: white; /* НЕ НЕСЛЕДУЕТСЯ, ПЕРЕПРОВЕРИТЬ СТИЛИ*/
+  color: white; 
 }
-.banner__button {
-  height: 58px;
+.banner__button-download {
   width: 270px;
 }
 .banner__registration-form {

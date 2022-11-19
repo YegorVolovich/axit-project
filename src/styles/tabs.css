@@ -15,6 +15,7 @@
   color: #333333;
   background-color: white;
   cursor: pointer;
+  transition: 0.1s linear;
 }
 .tabs__link:hover {
   color: #ec7979;
@@ -57,6 +58,10 @@
   font-weight: 400;
   font-size: 18px;
   background-color: #ec7979;
+  transition: 0.1s linear;
+}
+.text-block__button:hover {
+  background-color: #d36d6d;
 }
 .image-block {
   display: inline-block;

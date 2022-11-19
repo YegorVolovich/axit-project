@@ -45,3 +45,17 @@ p {
   font-weight: 400;
   line-height: 21px;
 }
+.button-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 58px;
+  cursor: pointer;
+  border: 2px solid white;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: transparent;
+  transition: 0.4s linear;
+}

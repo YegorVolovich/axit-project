@@ -1,17 +1,21 @@
 .main-header {
   background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 .main-header__inner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 75px;
+  /* height: 75px; */
 }
 .main-header__container {
-  max-width: 1200px;
+  max-width: 1250px;
 }
 .main-navigation__link {
-  color: #ffffff;
+  display: flex;
+  align-items: center;
+  color: var(--main-white);
   text-decoration: none;
   font-family: "Open Sans";
   font-size: 14px;
@@ -25,6 +29,6 @@
 .main-navigation {
   display: flex;
   justify-content: space-between;
-  width: 500px;
+  flex-basis: 570px;
   padding-right: 50px;
 }
