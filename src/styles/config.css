@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500&display=swap");
 
-html{
+html {
   scroll-behavior: smooth;
 }
 .wrapper {
@@ -37,7 +37,7 @@ h5 {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  color: #86878b;;
+  color: #86878b;
 }
 p {
   font-family: "Raleway";
@@ -58,4 +58,10 @@ p {
   font-size: 18px;
   background-color: transparent;
   transition: 0.4s linear;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #bdbdbd;
 }

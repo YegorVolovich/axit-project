@@ -10,10 +10,12 @@
 .banner-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 208px;
+  padding-top: 13rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 .banner__content {
-  max-width: 670px;
+  max-width: 41.875rem;
   color: white;
 }
 .banner-logo {
@@ -23,26 +25,77 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 56px;
-  padding: 51px 0 55px 0;
+  padding: 3.188rem 0 3.438rem 0;
 }
 .banner__content-line {
   background-color: white;
   margin: 0;
 }
 .banner__content-subtitle {
-  max-width: 270px;
+  max-width: 16.875rem;
   padding: 21px 0;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: white; 
+  color: white;
 }
 .banner__button-download {
-  width: 270px;
+  min-width: 16.875rem;
 }
-.banner__registration-form {
-  width: 470px;
-  height: 450px;
-  background-color: darkgray;
+.banner__form {
+  min-width: 29.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-white);
+  border-radius: 10px;
+}
+.banner__form-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5.625rem;
+  margin-bottom: 2.813rem;
+  text-transform: uppercase;
+}
+.banner__form-title-red {
+  color: var(--main-orange);
+}
+.banner__form-inputs {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.banner__form-inputs-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 11.25rem;
+  min-width: 23.125rem;
+}
+.banner__form-inputs-wrapper-input {
+  min-height: 2.375rem;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.banner__form-inputs-submit {
+  width: 100%;
+  margin-top: 4.688rem;
+  border: none;
+  border-radius: 0px 0px 10px 10px;
+  min-height: 3.75rem;
+  background-color: var(--main-orange);
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--main-white);
+  cursor: pointer;
+}
+.banner__form-inputs-submit:hover {
+  background-color: #d36d6d;
 }

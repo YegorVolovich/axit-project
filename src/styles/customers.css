@@ -1,9 +1,10 @@
 .customers {
-  margin-top: 50px;
+  padding-top: 3.125rem;
 }
 .reviews__list {
   display: flex;
   justify-content: space-between;
+  margin-top: 5.188rem;
 }
 .reviews__item {
   width: 32%;

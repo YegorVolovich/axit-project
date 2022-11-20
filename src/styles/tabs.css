@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-.tabs {
-  margin-top: 50px;
+.tabs-section {
+  margin-top: 6.25rem;
 }
 .tabs__link {
   margin: 0px;

@@ -1,10 +1,11 @@
 .awesome {
-  padding-top: 40px;
+  padding-top: 3.125rem;
 }
 .awesome__card {
   display: inline-block;
   width: 33.1%;
-  padding-bottom: 50px;
+  margin-top: 4.438rem;
+  margin-bottom: 3.625rem;
 }
 .awesome__card-circle {
   height: 96px;

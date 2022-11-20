@@ -1,11 +1,6 @@
 .section-header__title {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
+  margin: 3.125rem 0;
 }
 .section-header__line {
   margin: 0 auto;
@@ -15,10 +10,6 @@
 }
 .section-header__subtitle {
   text-align: center;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
+  margin-top: 2.5rem;
   color: var(--main-grey);
 }
