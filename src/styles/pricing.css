@@ -1,5 +1,5 @@
 .pricing {
-  padding-top: 3.125rem;
+  padding: 3.125rem 0;
   background-color: #f5f5f5;
 }
 .pricing__row {
@@ -9,7 +9,6 @@
   flex-wrap: wrap;
   min-height: 580px;
   margin-top: 3.688rem;
-  margin-bottom: 50px;
 }
 .pricing__card {
   background-color: #333333;
