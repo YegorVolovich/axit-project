@@ -20,6 +20,10 @@
   font-size: 14px;
   line-height: 19px;
   color: #bdbdbd;
+  transition: 0.3s;
+}
+.contact__form-container-inputs-input:focus {
+  border-bottom: 1px solid var(--main-orange);
 }
 .contact__form-container-message {
   min-width: 35.562rem;
@@ -32,6 +36,10 @@
   font-size: 14px;
   line-height: 19px;
   color: #bdbdbd;
+  transition: 0.3s;
+}
+.contact__form-container-message:focus {
+  border-bottom: 1px solid var(--main-orange);
 }
 .contact__form-button {
   display: flex;

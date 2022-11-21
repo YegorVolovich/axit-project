@@ -81,6 +81,10 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
+  transition: 0.3s;
+}
+.banner__form-inputs-wrapper-input:focus {
+  border-bottom: 1px solid var(--main-orange);
 }
 .banner__form-inputs-submit {
   width: 100%;
