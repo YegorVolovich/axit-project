@@ -83,7 +83,8 @@
   line-height: 19px;
   transition: 0.3s;
 }
-.banner__form-inputs-wrapper-input:focus {
+.banner__form-inputs-wrapper-input:focus,
+.banner__form-inputs-wrapper-input:hover {
   border-bottom: 1px solid var(--main-orange);
 }
 .banner__form-inputs-submit {

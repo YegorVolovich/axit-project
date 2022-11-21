@@ -22,7 +22,8 @@
   color: #bdbdbd;
   transition: 0.3s;
 }
-.contact__form-container-inputs-input:focus {
+.contact__form-container-inputs-input:focus,
+.contact__form-container-inputs-input:hover {
   border-bottom: 1px solid var(--main-orange);
 }
 .contact__form-container-message {
@@ -38,7 +39,8 @@
   color: #bdbdbd;
   transition: 0.3s;
 }
-.contact__form-container-message:focus {
+.contact__form-container-message:focus,
+.contact__form-container-message:hover {
   border-bottom: 1px solid var(--main-orange);
 }
 .contact__form-button {
