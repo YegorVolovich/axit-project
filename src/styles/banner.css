@@ -1,5 +1,5 @@
 .banner {
-  min-height: 951px;
+  min-height: 59.438rem;
   background: linear-gradient(rgba(30, 29, 29, 0.8), rgba(0, 0, 0, 0.5)),
     url(../assets/images/banner-background.jpeg);
   background-attachment: fixed;
@@ -17,8 +17,6 @@
 .banner__content {
   max-width: 41.875rem;
   color: white;
-}
-.banner-logo {
 }
 .banner__content-title {
   font-family: "Raleway";

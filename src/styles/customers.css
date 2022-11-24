@@ -10,8 +10,8 @@
   width: 32%;
 }
 .reviews__comment {
-  max-width: 370px;
-  min-height: 180px;
+  max-width: 23.125rem;
+  min-height: 11.25rem;
   background-color: #e2e2e2;
   position: relative;
   border-radius: 10px;
@@ -43,8 +43,6 @@
 }
 .reviews__photo {
   margin-right: 30px;
-}
-.reviews__customer-text {
 }
 .reviews__name {
   font-family: "Open Sans";
